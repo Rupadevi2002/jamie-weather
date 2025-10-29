@@ -54,4 +54,3 @@ View the deployed version here:
 This project was developed with guidance from LLMs (Large Language Models) for debugging and optimization.
 Created as part of a hands-on assessment to demonstrate practical use of APIs, state management, and frontend UI design.
 
-Chatgpt Conversation link:https://chatgpt.com/share/6901bb9d-4b1c-8012-9146-150ae91b0201
