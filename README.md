@@ -1,34 +1,55 @@
-# JamieWeather
+Jamie Weather App
 
-A simple React + Tailwind app that helps Jamie (an outdoor enthusiast) check the current weather of any city or their current location — instantly.
+A simple and responsive weather application that displays real-time weather data for any city using the Open-Meteo API. Built with React and Tailwind CSS for a fast and clean user experience.
 
-## Features
-- Search weather by city name
-- Use current location (geolocation)
-- Live data via Open-Meteo (no API key)
-- Clean UI with Tailwind CSS
+⚙️ Tech Stack
 
-## Tech Stack
-- React + Vite
-- Tailwind CSS
-- Open-Meteo APIs
+Framework: React (via Vite)
+Styling: Tailwind CSS
+Build Tool: Vite
+Language: JavaScript (ES6+)
 
-## Run locally
-1. npm install
-2. npm run dev
+APIs Used:
+Geocoding API: https://geocoding-api.open-meteo.com/v1/search?name={CITY}
+Weather API: https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
+State Management: React built-in hooks (useState, useEffect)
 
-Open http://localhost:5173
+Environment: CodeSandbox
+🌤️ Features
+🌍 Search weather by city name
+📍 Fetches latitude and longitude dynamically via Open-Meteo Geocoding API
+🌡️ Displays real-time temperature in Celsius
+🌬️ Shows wind speed and weather condition
+🧭 Automatically updates data based on search
+🧠 Fast and simple interface
+🔮 Future Enhancements
+📅 Add 3-day forecast view
+🌤️ Display weather icons dynamically
+⭐ Add favorite cities
+🌙 Implement dark mode
+🚀 How to Run Locally
 
-## Deployment
-Deploy easily on CodeSandbox or StackBlitz by importing this repo.
+Clone the repository:
+git clone https://github.com/Rupadevi2002/jamie-weather.git
 
-## APIs
-- Geocoding: https://geocoding-api.open-meteo.com/v1/search?name={CITY}
-- Weather: https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
 
-## Future
-- Add forecast view
-- Show weather icons
-- Add favorites and dark mode
+Navigate to the folder:
+cd jamie-weather
 
-ChatGPT conversation link: (Add your shared link here)
+
+Install dependencies:
+npm install
+Run the project:
+npm run dev
+
+
+Open your browser and visit:
+http://localhost:5173
+🌐 Live Demo
+
+View the deployed version here:
+👉 Jamie Weather App - Live Demo
+
+🧠 Notes
+This project was developed with guidance from LLMs (Large Language Models) for debugging and optimization.
+Created as part of a hands-on assessment to demonstrate practical use of APIs, state management, and frontend UI design.
